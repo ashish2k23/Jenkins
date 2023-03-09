@@ -14,5 +14,5 @@ print(camunda_response)
 print("***************after JSON response*************** ")
 for key in camunda_response:
    #print(key, '->', camunda_response[key])
-   print(key, '--->',camunda_response.get(key))
+   print(key, '--->',camunda_response.get(values))
 
