@@ -12,7 +12,7 @@ pipeline {
       steps {
         bat 'python hello.py'
 		bat 'python python_functions.py ${CAMUNDA_TASK_ID},${APPLICATION_NAME}'
-		bat 'python ValidateDeploymentDetasils.py ${CAMUNDA_TASK_ID},${APPLICATION_NAME}'
+		bat 'python ValidateDeploymentDetails.py ${CAMUNDA_TASK_ID},${APPLICATION_NAME}'
     }
   }
 }
