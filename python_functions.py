@@ -5,7 +5,7 @@ def print_name(name, age):
     return print(f"My name is {name} and age {age}")
 
 
-TaskID = os.environ['TASK_ID']
+TaskID = os.environ['CAMUNDA_TASK_ID']
 ApplicationName = os.environ['APPLICATION_NAME']
 print(TaskID)
 print(ApplicationName)
