@@ -7,7 +7,7 @@ def print_name(name, age):
 
 TaskID = os.environ['CAMUNDA_TASK_ID']
 ApplicationName = os.environ['APPLICATION_NAME']
-print(CAMUNDA_TASK_ID)
+print(TaskID)
 print(ApplicationName)
 print_name('Ashish', 40)
 print_name('Akansha', 36)
