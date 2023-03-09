@@ -3,6 +3,6 @@ def print_name(name, age):
 	
 
 
-#print_name('Ashish', 40)
-#print_name('Akansha', 36)
+print_name('Ashish', 40)
+print_name('Akansha', 36)
 
