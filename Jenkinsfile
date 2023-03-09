@@ -10,7 +10,7 @@ pipeline {
     stage('hello') {
       steps {
         bat 'python hello.py'
-		bat (script: "python python_functions.py "${TASK_ID}"")
+		bat (script: "python python_functions.py "${TASK_ID}")
       }
     }
   }
