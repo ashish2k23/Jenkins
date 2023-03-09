@@ -13,7 +13,7 @@ camunda_response = response.json()
 print(camunda_response)
 print(f"Application name is {camunda_response['applicationname']['value']}")
 print(camunda_response['reqstatus']['value'])
-if APPLICATION_NAME == camunda_response['applicationname']['value'] && camunda_response['reqstatus']['value'] == 'Approved':
+if(APPLICATION_NAME == camunda_response['applicationname']['value'] and camunda_response['reqstatus']['value'] == 'Approved'):
 	print("deplyment request is validated")
 else:
 	print("deplyment request is not validated")
