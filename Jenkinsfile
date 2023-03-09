@@ -4,7 +4,7 @@ pipeline {
     stage('version') {
       steps {
         bat 'python --version'
-		echo "${TASK_ID}"
+		echo "${CAMUNDA_TASK_ID}"
 		echo "${APPLICATION_NAME}"
       }
     }
