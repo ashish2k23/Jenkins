@@ -9,7 +9,7 @@ pipeline {
     stage('hello') {
       steps {
         bat 'python hello.py'
-		bat (script: "python_functions.py 'Ashish',40",returnStdout:true).trim()
+		bat (script: "python_functions.py 'Ashish',40").trim()
       }
     }
   }
