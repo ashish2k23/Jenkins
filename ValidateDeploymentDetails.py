@@ -6,8 +6,8 @@ print(CAMUNDA_TASK_ID)
 APPLICATION_NAME = os.environ['APPLICATION_NAME']
 print(APPLICATION_NAME)
 
-#api_url = "http://localhost:8080/engine-rest/process-instance/"+CAMUNDA_TASK_ID+"/variables"
-api_url = "https://dmn-eai-dev.kdc.logistics.corp/engine-rest/process-instance/"+CAMUNDA_TASK_ID+"/variables"
+api_url = "http://localhost:8080/engine-rest/process-instance/"+CAMUNDA_TASK_ID+"/variables"
+#api_url = "https://dmn-eai-dev.kdc.logistics.corp/engine-rest/process-instance/"+CAMUNDA_TASK_ID+"/variables"
 
 print(api_url);
 response = requests.get(api_url)
